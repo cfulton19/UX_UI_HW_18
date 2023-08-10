@@ -126,3 +126,21 @@ button:hover {
     padding: 50px 0;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column;
+    }
+
+    .skill {
+        width: 100%;
+    }
+
+    .workGrid {
+        grid-template-areas:
+            "project1 project2"
+            "project3 project4";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+}
