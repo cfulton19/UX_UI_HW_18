@@ -86,3 +86,43 @@ button:hover {
     box-shadow: 0px 0px 10px darkgray;
     transform: scale(1.03);
 }
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.mySkills {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    grid-template-areas:
+        "project1 project2"
+        "project3 project4";
+}
+
+.project {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+.myWork {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
